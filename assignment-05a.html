@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-05a</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend>SIGN UP Here</legend>
+                <!-- Name -->
+                <div>
+                    <label for="Fname">First Name :-</label>
+                    <input type="text" name="FirstName" placeholder="First Name" id="Fname" />
+                    <label for="Lname">Last Name :-</label>
+                    <input type="text" name="LastName" placeholder="Last Name" id="Lname" />
+                </div><br>
+                <!-- Gender -->
+                <div>
+                    <label>Gender :-</label>
+                    <label for="male">Male</label>
+                    <input type="radio" name="Gender" id="male" value="male" />
+                    <label for="female">Female</label>
+                    <input type="radio" name="Gender" id="female" value="female" />
+                </div><br>
+                <!-- Age -->
+                <div>
+                    <label for="age">Age :-</label>
+                    <input type="number" min="1" max="150" name="Age" placeholder="Age" id="age">
+                </div><br>
+                <!-- email -->
+                <div>
+                    <label for="email">Email :-</label>
+                    <input type="email" name="Email" placeholder="Email" id="email" />
+                </div><br>
+                <!-- username -->
+                <div>
+                    <lable for="username"> UserName :-</lable>
+                    <input type="text" name="username" placeholder="Choose username">
+                </div>
+                <br>
+                <!-- Password -->
+                <div>
+                    <label for="cos-pw"> Choose password :-</label>
+                    <input type="passworld" name="Password" placeholder="Password" id="cos-pw" />
+                                <!-- confirm password -->
+                    <label for="cnf_pw">Confirm Password :-</label>
+                    <input type="password" name="Confirm_Password" placeholder="Confirm Password" />
+                </div><br>
+                
+                <!-- Validation -->
+                <div>
+                    <label for="check"> <b>agree to all term and condition</b> </lable>
+                    <input type="checkbox" name="allcheck" id="check" placeholder="">
+                </div><br>
+                <!-- submit/signup -->
+                <input type="submit" name="singup" placeholder="signup" />
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
